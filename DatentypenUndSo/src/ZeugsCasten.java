@@ -12,5 +12,9 @@ public class ZeugsCasten {
 		System.out.println(alterAlsText);
 		// für int: Integer.toString()
 		
+		// damit kann man zeugs zu integers parsen 
+		String zahlen = "23"; 
+		System.out.println(Integer.parseInt(zahlen));
+		
 	}
 }
