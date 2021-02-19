@@ -18,13 +18,22 @@ public class Streaming {
 		int zweiStellig = (int) zahlen.stream()
 		.filter(zahl -> zahl >= 10).count(); 
 		
+		
+		
+		zahlen.forEach(zahl -> System.out.println(zahl));
+		
+		
+		
+		
 		System.out.println(zweiStellig);
 			
 		System.out.println("----------------------------");
 		
+		/*
 		for(Integer zahl : zahlen ) {
 			System.out.println(zahl);
 		}
+		*/
 		
 	}
 }
